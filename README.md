@@ -9,15 +9,13 @@ Additionally, there is a new button on the properties dialog, which generates a 
 
 Release | Notes
 --------|--------
-
-[v1.0](https://github.com/ArasLabs/) | Initial Release
+[v1.0](https://github.com/ArasLabs/update-properties-dialog/releases/tag/v1.0) | Initial Release
 
 #### Supported Aras Versions
 
 Project | Aras
 --------|------
-
-[v1.0](https://github.com/ArasLabs/) | 11.0 SP15, 12.0 Beta
+[v1.0](https://github.com/ArasLabs/update-properties-dialog/releases/tag/v1.0) | 11.0 SP15, 12.0 Beta
 
 ## Installation
 
