@@ -15,7 +15,7 @@ Release | Notes
 
 Project | Aras
 --------|------
-[v1.0](https://github.com/ArasLabs/updated-properties-dialog/releases/tag/v1.0) | 11.0 SP15, 12.0 Beta
+[v1.0](https://github.com/ArasLabs/updated-properties-dialog/releases/tag/v1.0) | 11.0 SP15, 12.0 Beta, 12.0 SP0
 
 ## Installation
 
@@ -31,7 +31,10 @@ Project | Aras
 1. Backup your code tree.
 2. Copy the Innovator folder provided in this repository into the root folder of your aras installation.
 3. Open `client/javascript/IncludeNamespaceConfig.xml`
-4. Place the line `<file src="qrcode.js"/>` within the `<ArasModules>` tag.
+4. If you're using Aras Innovator 11 SP15:
+   1. Place the line `<file src="qrcode.js"/>` within the `<ArasModules>` tag.
+5. If you're using Aras Innovator 12 SP0:
+   1. Place the line `<file src="qrcode.js"/>` within the `<ArasModulesWithoutCore>` tag.
 
 ## Usage
 
